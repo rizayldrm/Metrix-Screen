@@ -12,7 +12,7 @@ var drops = []
 for (var i = 0; i < columns; i++) {
     drops.push(0)
 }
-var str = '1234567890QWERTYUIOPASDFGHJKLZXCVBNM.,:;{}[]()'
+var str = '1234567890ABCDEF'
 function draw() {
     context.fillStyle = 'rgba(0,0,0,0.05)'
     context.fillRect(0, 0, W, H)
